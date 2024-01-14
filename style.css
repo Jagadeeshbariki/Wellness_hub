@@ -1,0 +1,52 @@
+/* MainL Styling part */
+
+#medication-list{
+    font-size: x-large;
+
+}
+
+#medication-form{
+    border: 5px blue solid;
+    background-image: url(Gallary/medication.jpg);
+    background-size: cover;
+}
+
+mainL{
+    overflow-y: scroll ;
+}
+
+/* mainC Styling part */
+#ent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* align-content: space-around; */
+    /* margin: 2%; */
+    /* background-image: url(Gallary/);
+    background-attachment: fixed; */
+    background-color: lightgrey;
+}
+
+.ent{
+    width: 25%;
+    height: 25%;
+    margin: 4%;
+    
+}
+
+
+
+
+/* MainR styling part */
+
+#emergency-contact-form{
+    border: 5px blue solid;
+   background-color: lightblue;
+}
+
+/* Footer */
+
+.social{
+    width: 5%;
+}

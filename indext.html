@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellness Hub for Seniors</title>
+    <!-- BootStrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="text-center text-white bg-warning p-4 ">
+       <u><b><h1>WELLNESS HUB FOR SENIORS</h1></b></u>
+    </header>
+
+
+    <main class="m-2">
+
+        <!-- To make application moblie friendly or responsive -->
+
+        <div class="row">
+            <div id="mainL" class="col-sm-3">
+                <h1 class="text-center bg-primary p-3 text-white">Health is wealth</h1>
+
+                
+                <!-- Taking input of madition for the user -->
+
+                <section id="add-medication" class="mb-4">
+                    <h2>Add Medication</h2>
+
+                   
+                    <!-- Form  -->
+                    <form id="medication-form" class="p-3">
+                        <div class="form-group">
+                            <label for="medication-name">Medication Name:</label>
+                            <input type="text" class="form-control" id="medication-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="medication-time">Medication Time:</label>
+                            <input type="time" class="form-control" id="medication-time" required>
+                        </div><br>
+                        <button type="submit" class="btn btn-success text-center">Add Medication</button>
+                    </form>
+                    <section id="medication-list" class="mb-4">
+                        <!-- Medication list goes here -->
+                    </section>
+
+
+                </section>
+
+
+            </div>
+
+
+
+<!-- mainC -->
+
+            <div id="mainC" class="col-sm-6">
+                <h1 class="text-center bg-primary p-3 text-white">Entertinement</h1>
+                <div id="ent">
+                    <!-- You Tube -->
+                    <div class="ent"><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><img src="Gallary/youtube.jpg" alt="youtube" width="100%"></a></div>
+
+                    <!-- Amazon Prime -->
+                    <div class="ent"><a href="https://www.amazon.com/Amazon-Photos/b?ie=UTF8&node=13234696011" target="_blank" rel="noopener noreferrer"><img src="Gallary/amazon.jpg" alt="Amazon prime" width="100%" height="75%"></a></div>
+
+                    <!-- Net Flix -->
+                    <div class="ent"><a href="https://www.netflix.com/in/" target="_blank" rel="noopener noreferrer"></a><img src="Gallary/netflix.jpg" alt="NetFlix" width="100%"></div>
+
+                    <!-- Spootify -->
+                    <div class="ent"><a href="https://open.spotify.com/" target="_blank" rel="noopener noreferrer"><img src="Gallary/spootify.jpg" alt="Spootify" width="100%"></a></div>
+
+                    <!-- Strava -->
+                    <div class="ent"><a href="https://www.strava.com/" target="_blank" rel="noopener noreferrer"><img src="Gallary/Strava.jpg" alt="Strava" width="100%"></a></div>
+
+                    <!-- Indian TV -->
+                    <div class="ent"><a href="https://www.indiatvnews.com/" target="_blank" rel="noopener noreferrer"><img src="Gallary/India.jpg" alt="India TV" width="100%"></a></div>
+
+                    <!-- chess -->
+                    <div class="ent"><a href="https://www.chess.com/" target="_blank" rel="noopener noreferrer"><img src="Gallary/chess.jpeg" alt="chess" width="100%"></a></div>
+
+                    <!-- JigwaPuzzle -->
+                    <div class="ent"><a href="https://www.jigsawplanet.com/" target="_blank" rel="noopener noreferrer"><img src="Gallary/Jigwap.jpeg" alt="Jigwa Puzzle" width="100%"></a></div>
+
+                    <!-- Bingo -->
+                    <div class="ent"><a href="https://play.google.com/store/apps/details?id=air.com.buffalo_studios.newflashbingo&hl=en&gl=US&pli=1" target="_blank" rel="noopener noreferrer"><img src="Gallary/Bingo.jpeg" alt="Bingo Game" width="100%"></a></div>
+                </div>
+        
+            </div>
+
+            <!-- mainR  -->
+
+
+            <!-- Inside the 'mainR' div in your HTML -->
+            <div id="mainR" class="col-sm-3">
+                <h1 class="text-center bg-primary p-3 text-white">Emergency Contact</h1>
+
+                <!-- Emergency Contact Form -->
+                <section id="emergency-contact-form" class="mb-4 p-3">
+                    <h2>Add Emergency Contact</h2>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="contact-name">Name:</label>
+                            <input type="text" class="form-control" id="contact-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-number">Phone Number:</label>
+                            <input type="tel" class="form-control" id="contact-number" pattern="[0-9]{10}" required>
+                            <small class="form-text text-muted">Please enter a 10-digit phone number.</small>
+                        </div>
+                        <button type="button" class="btn btn-primary" id="add-contact-btn">Add Contact</button>
+                    </form>
+                </section>
+
+                <!-- Display Emergency Contacts -->
+                <section id="display-contacts" class="mb-4">
+                    <!-- Contact information will be displayed here -->
+                </section>
+            </div>
+
+
+    </main>
+
+    <footer class="text-center p-3 bg-warning">
+        <p>&copy; 2024 WELLNESS HUB FOR SENIORS. All rights reserved.</p>
+        <p>Contact: vyomanautjagadeesh@gmail.com | Phone: 6300</p>
+    
+        <!-- Links -->
+        <div>
+            <a href="privacy.html">Privacy Policy</a> |
+            <a href="terms.html">Terms of Service</a> |
+            <a href="faqs.html">FAQs</a>
+        </div>
+
+        <!-- Social Media Links -->
+        <div>
+            <a href="#" target="_blank">Facebook</a> |
+            <a href="#" target="_blank">Twitter</a> |
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+        
+        <!-- Acknowledgments or Credits -->
+        <p>Powered by <a href="https://getbootstrap.com/" target="_blank">bootstrap</a></p>
+    </footer>
+
+    <script src="project.js">
+
+    </script>
+</body>
+</html>
