@@ -1,26 +1,31 @@
 # Wellness_Hub_center
 
+![image](https://github.com/Jagadeeshbariki/Wellness_hub/assets/111977705/f01526a7-af93-4bef-acbc-1b4ef086a9ed)
 
-![image](https://github.com/Jagadeeshbariki/Wellness_Hub_center/assets/111977705/80a5a993-7047-4d74-871c-c813323244d8)
 
 
 I have created the Application for the 65 years aged persons to help them to spend time and remind if they have any medication and added the emergency contact section to call in emergency situations. 
 
 To crate the applicataion I have used the HTML, CSS, JavaScript and Bootstrap as framework. 
 
+![image](https://github.com/Jagadeeshbariki/Wellness_hub/assets/111977705/c79d97ac-87ff-4172-9195-3597f7a74c9e)
 
-![image](https://github.com/Jagadeeshbariki/Wellness_Hub_center/assets/111977705/b5520f0d-8346-454d-bdfe-c1c9d85462d3)
+
+
+
 
 Here is the main content to entertain with movies, games, music players.
 
-![image](https://github.com/Jagadeeshbariki/Wellness_Hub_center/assets/111977705/b8289207-a012-467e-9d81-fdee389791d8)
+![image](https://github.com/Jagadeeshbariki/Wellness_hub/assets/111977705/378e50a3-9211-4acc-a478-487142828940)
+
 
 to add the emergency contact number here the form:
 
-![image](https://github.com/Jagadeeshbariki/Wellness_Hub_center/assets/111977705/d069df53-f934-4f15-a703-8f21d651922d)
+![image](https://github.com/Jagadeeshbariki/Wellness_hub/assets/111977705/7ca6f6ff-ac04-4852-bbd6-fa0236a196df)
 
 
-Final output:  ![image](https://github.com/Jagadeeshbariki/Wellness_Hub_center/assets/111977705/b2a05402-2a29-44ed-8ff7-eba5270abcc1)
+Final output:  ![image](https://github.com/Jagadeeshbariki/Wellness_hub/assets/111977705/c2e67d2d-73ea-458f-9a30-75db5696b864)
+
 
 
 
